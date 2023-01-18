@@ -1,0 +1,111 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  width: 312px;
+  height: 472px;
+  position: relative;
+  background: url(../../pictures/funbox_logo.png) no-repeat, white;
+  background-position: left -24px top 208px;
+  background-size: 368px 360px;
+  padding: 0 0 0 51px;
+  clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0 100%, 0 10%);
+  cursor: pointer;
+}
+.card__border {
+  margin: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 480px;
+  border-radius: 12px;
+  background: #1698d9;
+  clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0 100%, 0 10%);
+}
+
+.card__wrap {
+  height: 509px;
+  margin: 0 auto 40px;
+}
+.card__text {
+  max-width: 160px;
+  margin: 21px auto 0 0;
+  line-height: 16px;
+  color: #666666;
+}
+.card__subtitle {
+  margin: 21px auto 0 0;
+  color: #666666;
+}
+.card__subtitle-hover {
+  color: #e52e7a;
+}
+.card__title {
+  margin: 5px auto 0 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+.card__taste {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.card__circle {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  width: 80px;
+  height: 80px;
+  background: #1698d9;
+  border-radius: 40px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+.card__weight {
+  font-size: 42px;
+  line-height: 38px;
+}
+.card__unit {
+  font-size: 21px;
+  line-height: 22px;
+}
+.card__buy_text {
+  text-align: center;
+  margin: 14px auto 0;
+  font-size: 13px;
+  line-height: 15px;
+}
+.card__buy_text-disabled {
+  color: #ffff66;
+}
+.card__buy_button {
+  cursor: pointer;
+  color: #1698d9;
+  text-decoration: #1698d9 dashed underline 1px;
+}
+.hover {
+  background: #2ea8e6;
+}
+.selected {
+  background: #d91667;
+}
+.selected_hover {
+  background: #e52e7a;
+}
+.disabled {
+  background: #b3b3b3;
+}
+.card_disabled {
+  background: url(../../pictures/funbox_logo.png) no-repeat, white;
+  opacity: 0.5;
+  background-position: left -24px top 208px;
+  background-size: 368px 360px;
+}
