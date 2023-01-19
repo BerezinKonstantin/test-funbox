@@ -30,4 +30,4 @@
 
 ## Результат
 
-**[GitHub Pages](https://berezinkonstantin.github.io/test-funbox/)**
+**[Деплой на Vercel](https://test-funbox-ten.vercel.app/)**
