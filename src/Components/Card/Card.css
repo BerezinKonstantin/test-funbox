@@ -14,7 +14,6 @@
   cursor: pointer;
 }
 .card__border {
-  margin: 0 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,23 +23,18 @@
   background: #1698d9;
   clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0 100%, 0 10%);
 }
-
 .card__wrap {
   height: 509px;
   margin: 0 auto 40px;
 }
 .card__text {
   max-width: 160px;
-  margin: 21px auto 0 0;
   line-height: 16px;
-  color: #666666;
 }
-.card__subtitle {
+.card__subtitle,
+.card__text {
   margin: 21px auto 0 0;
   color: #666666;
-}
-.card__subtitle-hover {
-  color: #e52e7a;
 }
 .card__title {
   margin: 5px auto 0 0;
@@ -103,18 +97,18 @@
 .disabled {
   background: #b3b3b3;
 }
-.disabled {
-  background: #b3b3b3;
-}
 .card_disabled {
   background: url(../../pictures/funbox_logo.png) no-repeat, white;
   opacity: 0.5;
   background-position: left -24px top 208px;
   background-size: 368px 360px;
 }
-.card_disabled .card__title {
+.card_disabled .card__title,
+.card_disabled .card__taste,
+.card_disabled .card__text,
+.card_disabled .card__subtitle {
   color: #b3b3b3;
 }
-.card_disabled .card__taste {
-  color: #b3b3b3;
+.card__subtitle-hover {
+  color: #e52e7a;
 }
