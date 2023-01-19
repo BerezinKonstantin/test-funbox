@@ -103,9 +103,18 @@
 .disabled {
   background: #b3b3b3;
 }
+.disabled {
+  background: #b3b3b3;
+}
 .card_disabled {
   background: url(../../pictures/funbox_logo.png) no-repeat, white;
   opacity: 0.5;
   background-position: left -24px top 208px;
   background-size: 368px 360px;
+}
+.card_disabled .card__title {
+  color: #b3b3b3;
+}
+.card_disabled .card__taste {
+  color: #b3b3b3;
 }
